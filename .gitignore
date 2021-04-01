@@ -1,8 +1,25 @@
-build/
-node_modules
-.env
-npm-debug.log
-*.log
-logs
-.vscode
+# DEPENDENCIES
 .DS_Store
+/node_modules
+node_modules
+
+# LOCAL ENV FILES
+.env
+.env.build
+.env.local
+.env.*.local
+!.env.example
+*-service-account.json
+
+# LOG FILES
+npm-debug.log*
+
+# TESTING
+/coverage
+
+# PRODUCTION
+/build
+/dist
+
+# EDITOR DIRECTORIES AND FILES
+.vscode
