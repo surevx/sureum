@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 // Copyright SureVX Ltd 2021
 
-pragma solidity >=0.5.0 <0.9.0;
+pragma solidity ^0.8.0;
 
 contract svxPosition {
     address payable public receiver; // Payee of underlying deal
