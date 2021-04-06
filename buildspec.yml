@@ -7,8 +7,10 @@ phases:
     runtime-versions:
       node: 14
   pre_build:
-    - echo Running npm install
-    - npm install
+    commands:
+      - echo Running npm install
+      - npm install
   build:
-    - echo Running Hardhat testing
-    - npx hardhat test
+    commands:
+      - echo Running Hardhat testing
+      - npx hardhat test
